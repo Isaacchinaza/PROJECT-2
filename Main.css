@@ -1,0 +1,43 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+
+
+.container{
+    background: #0296ff;
+    border-radius: 10px;
+   
+    margin: 0 auto;
+    padding: 50px;
+    margin-top: 10px;
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+    padding-top: 30px;
+}
+
+form .display input{
+    
+    font-size: 45px;
+    box-shadow: none;
+    color: black;
+    cursor: pointer;
+    width: 100%;
+    padding: 1px;
+    padding-top: 50px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+}
+form input.equal{
+    width: 145px;
+}
+
+form input.operator{
+    color: #33ffd8;
+}
